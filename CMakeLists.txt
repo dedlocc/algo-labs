@@ -3,7 +3,7 @@ project(dm-labs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(LAB y2020-1-2)
+set(LAB term1/2)
 
 file(GLOB FILES src/${LAB}/**.cpp)
 
