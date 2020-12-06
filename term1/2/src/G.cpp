@@ -10,10 +10,6 @@ struct Element
     uint32_t max = 0;
     size_t size = 1;
 
-    explicit Element(const uint32_t &n) : min(n), max(n)
-    {
-    }
-
     Element(const Element &&e) noexcept : parent(this) {
         rank = e.rank;
         min = e.min;

@@ -3,9 +3,7 @@ project(dm-labs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(LAB term1/2)
-
-file(GLOB FILES src/${LAB}/**.cpp)
+file(GLOB FILES term1/2/src/*.cpp)
 
 foreach (FILE ${FILES})
     get_filename_component(TARGET ${FILE} NAME_WE)

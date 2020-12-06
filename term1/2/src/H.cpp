@@ -10,10 +10,6 @@ struct Element
 
     Element() = default;
 
-    Element(const uint32_t &weight): weight(weight) // NOLINT(google-explicit-constructor)
-    {
-    }
-
     [[nodiscard]] Element *get() const
     {
         Element *p = parent;
