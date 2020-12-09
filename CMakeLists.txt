@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.17)
-project(dm-labs)
+project(algo-labs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-file(GLOB FILES term1/2/src/*.cpp)
+file(GLOB FILES term1/3/src/*.cpp)
 
 foreach (FILE ${FILES})
     get_filename_component(TARGET ${FILE} NAME_WE)
