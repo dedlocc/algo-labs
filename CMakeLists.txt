@@ -3,7 +3,7 @@ project(algo-labs)
 
 set(CMAKE_CXX_STANDARD 20)
 
-file(GLOB FILES term4/3/src/*.cpp)
+file(GLOB FILES term4/4/src/*.cpp)
 
 foreach (FILE ${FILES})
     get_filename_component(TARGET ${FILE} NAME_WE)
